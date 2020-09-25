@@ -62,16 +62,19 @@ This repository contains a detailed sample app that implements MVVM architecture
 -->
   
   ### 👉 Why RxJava?
+  -----------------------------
+  
+  Reactive extensions in Java allow you to manipulate multiple actions that occur due to certain system events simultaneously. Rx gives you a possibility to use
+  functional transformations over streams of events and it doesn't require using nasty things like callbacks and global state management.
+
+##### 👉 If You Want To Dont't Load On Ui Thread Then You Should Use Background Thread. RxJava Doing Same For That Workd.
   <p align="center">
   <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/rxJavaImg.png" width="250">
   </p>
-<br>
+  <br>
 
-##### 👉 If You Want To Dont't Load On Ui Thread Then You Should Use Background Thread. RxJava Doing Same For That Workd.
  
 
-
-Reactive extensions in Java allow you to manipulate multiple actions that occur due to certain system events simultaneously. Rx gives you a possibility to use functional transformations over streams of events and it doesn't require using nasty things like callbacks and global state management.
 
 
 
