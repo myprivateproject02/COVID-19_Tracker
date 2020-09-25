@@ -5,10 +5,11 @@
 
 >  This Is A Live Covid-19 tracker Application With Advance Library.
 
+### Download Apk File
+https://mega.nz/file/SltQRC7D#_I7cwowZ-UBVNqCVN1Y9smfwM3leDKSUm7W4S7eUXlw
 
 
-
-#### Implementing Retrofit And RxJava with Hilt (dependency injection).
+#### 👉  Implementing Retrofit And RxJava with Hilt (dependency injection).
 <!------------
 -->
 
@@ -23,7 +24,7 @@
 
 This repository contains a detailed sample app that implements MVVM architecture using Hilt, Room, RxJava, Glide, Navigation Component.
 
-#### Features Of This App
+#### 👉  Features Of This App
 ##### 1. Showing Live Corona Cases.
 ##### 1. Showing Cases Of All Countries
 ##### 3. Showing Live Indina State Cases.
@@ -32,27 +33,19 @@ This repository contains a detailed sample app that implements MVVM architecture
 <!------------
 -->
 
-## Some ScreenShorts
+## 👉  Some ScreenShorts
 
 <p align="center">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-login.png" width="250">
-  <img src="https://janishar.github.io/images/mvp-app-pics/main-view.png" width="250">
-  <img src="https://janishar.github.io/gifs/mvp-app.gif" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss01.png" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss2.png" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss1.png" width="250">
 </p>
-<br>
-<p align="center">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-drawer.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-rating.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-feed.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-empty-state.png" width="200">
-</p>
-<br>
 <br>
 
 <!------------
 -->
 
-**Keep your code clean according to MVVM**
+** Keep your code clean according to MVVM**
 -----------------------------
  - Yes , liveData is easy , powerful , but you should know how to use.
  - For livedate which will emit data stream , it has to be in your
@@ -65,14 +58,28 @@ This repository contains a detailed sample app that implements MVVM architecture
    mixing the responsibilities .
 
   ![mvvm2](https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/img1.png)
+  
+<!------------
+-->
+  
+  ### 👉  Why RxJava?
+  -----------------------------
+  
+  Reactive extensions in Java allow you to manipulate multiple actions that occur due to certain system events simultaneously. Rx gives you a possibility to use
+  functional transformations over streams of events and it doesn't require using nasty things like callbacks and global state management.
+
+##### 👉  If You Want To Dont't Load On Ui Thread Then You Should Use Background Thread. RxJava Doing Same For That Workd.
+  <p align="center">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/rxJavaImg.png" width="250">
+  </p>
+  <br>
+
+ 
 
 
-### Why RxJava?
-Reactive extensions in Java allow you to manipulate multiple actions that occur due to certain system events simultaneously. Rx gives you a possibility to use functional transformations over streams of events and it doesn't require using nasty things like callbacks and global state management.
 
 
-
-### Library reference resources:
+### 👉  Library reference resources:
 1. RxJava2: https://github.com/amitshekhariitbhu/RxJava2-Android-Samples
 2. Hilt : https://developer.android.com/training/dependency-injection/hilt-android
 3. Retrofit : https://github.com/amitshekhariitbhu/Fast-Android-Networking
