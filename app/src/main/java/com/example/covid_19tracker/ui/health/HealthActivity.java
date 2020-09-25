@@ -38,27 +38,18 @@ public class HealthActivity extends AppCompatActivity {
 
 
         int[] images = {
-                R.drawable.advice_1, R.drawable.advice_2,
-                R.drawable.advice_3, R.drawable.advice_4,
-                R.drawable.advice_5, R.drawable.advice_6,
-                R.drawable.advice_7, R.drawable.advice_8,
-                R.drawable.advice_9, R.drawable.advice_10,
-                R.drawable.advice_11, R.drawable.advice_12,
-                R.drawable.advice_13, R.drawable.advice_15,
-                R.drawable.advice_16, R.drawable.advice_17,
-                R.drawable.advice_18
+                R.drawable.advice_01, R.drawable.advice_1,
+                R.drawable.advice_2, R.drawable.advice_04,
+                R.drawable.advice_05, R.drawable.advice_06,
+                R.drawable.advice_07
+
         };
 
         String[] advices = {
                 getString(R.string.advice_1), getString(R.string.advice_2),
                 getString(R.string.advice_3), getString(R.string.advice_4),
                 getString(R.string.advice_5), getString(R.string.advice_6),
-                getString(R.string.advice_7), getString(R.string.advice_8),
-                getString(R.string.advice_9), getString(R.string.advice_10),
-                getString(R.string.advice_11), getString(R.string.advice_12),
-                getString(R.string.advice_13), getString(R.string.advice_15),
-                getString(R.string.advice_16), getString(R.string.advice_17),
-                getString(R.string.advice_18),
+                getString(R.string.advice_7)
 
         };
 

@@ -9,23 +9,13 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-    <string name="advice_1">Always clean hands by rubbing them with an alcohol disinfectant or washing them thoroughly with soap and water</string>
-    <string name="advice_2">When greeting guests at home, the salutation is one meter away through: hand-waving, gesture or bending.</string>
-    <string name="advice_3">Have everyone at home wash their hands, including guests.</string>
-    <string name="advice_4">Constant cleaning of surfaces and especially touched objects.</string>
-    <string name="advice_5">If you develop symptoms of the emerging coronavirus, contact your healthcare professional before going.</string>
-    <string name="advice_6">Keep up-to-date on the virus, from reliable sources.</string>
-    <string name="advice_7">When coughing and sneezing, be sure to cover your mouth and nose with your folded elbow or a tissue, and dispose of the tissue immediately and wash your hands.</string>
-    <string name="advice_8">Avoid approaching people with fever and cough, and keep a distance of at least one meter (3 feet).</string>
-    <string name="advice_9">The masks should not be reused and not touched from the front. The use of the N95 respirator mask protects against the virus only when used properly.</string>
-    <string name="advice_10">Antibiotics are not effective in preventing the virus, they only kill the germs.</string>
-    <string name="advice_11">Hand dryers are not effective in eliminating the virus within 30 seconds. Rather, hands should be cleaned by rubbing them with an alcohol disinfectant, or washed with soap and water and then used dryers.</string>
-    <string name="advice_12">Spraying the body with alcohol or chlorine does not help eliminate the virus, but it may be harmful to clothing or mucous membranes (such as the eyes and mouth).</string>
-    <string name="advice_13">Regularly washing the nose with a saline solution does not prevent HIV infection.</string>
-    <string name="advice_15">Avoid touching your eyes, nose and mouth.</string>
-    <string name="advice_16">If someone in the audience feels it is not well (especially if its symptoms are positive for the emerging coronavirus), be careful not to share the places together.</string>
-    <string name="advice_17">Make a preparatory plan for you if the virus spreads in your community.</string>
-    <string name="advice_18">"If you leave the house, try to adhere to all instructions as if you were at home   "</string>
+    <string name="advice_1">Avoid touching your eyes, nose, and mouth with unwashed hands.</string>
+    <string name="advice_2">Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.</string>
+    <string name="advice_3">Inside your home: Avoid close contact with people who are sick.If possible, maintain 6 feet between the person who is sick and other household members.</string>
+    <string name="advice_4">Cover your mouth and nose with a mask when around others.You could spread COVID-19 to others even if you do not feel sick.The mask is meant to protect other people in case you are infected.</string>
+    <string name="advice_5">Always cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow and do not spit.</string>
+    <string name="advice_6">Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.</string>
+    <string name="advice_7">Be alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.</string>
 
 
 </resources>
