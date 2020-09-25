@@ -44,7 +44,7 @@ This repository contains a detailed sample app that implements MVVM architecture
 <!------------
 -->
 
- ** 👉 Keep your code clean according to MVVM**
+** Keep your code clean according to MVVM**
 -----------------------------
  - Yes , liveData is easy , powerful , but you should know how to use.
  - For livedate which will emit data stream , it has to be in your
