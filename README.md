@@ -5,7 +5,8 @@
 
 >  This Is A Live Covid-19 tracker Application With Advance Library.
 
-
+### Download Apk File
+https://mega.nz/file/SltQRC7D#_I7cwowZ-UBVNqCVN1Y9smfwM3leDKSUm7W4S7eUXlw
 
 
 #### 👉  Implementing Retrofit And RxJava with Hilt (dependency injection).
