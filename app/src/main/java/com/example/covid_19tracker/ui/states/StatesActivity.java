@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 
 import com.example.covid_19tracker.Viewmodel.StateViewmodel;
@@ -30,7 +31,15 @@ public class StatesActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         viewmodel = new ViewModelProvider(this).get(StateViewmodel.class);
-        viewmodel.fetchData();
+        timer();
 
+    }
+
+    private void timer() {
+        Handler handler = new Handler();
+        handler.post(() -> {
+            viewmodel.fetchData();
+            handler.postDelayed(this::timer, 60000);
+        });
     }
 }

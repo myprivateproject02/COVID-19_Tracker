@@ -4,10 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+import android.os.Handler;
 
 import com.example.covid_19tracker.Viewmodel.MainViewmodel;
 import com.example.covid_19tracker.databinding.ActivityHomeBinding;
 
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 import dagger.hilt.android.AndroidEntryPoint;
 
@@ -26,16 +30,28 @@ public class HomeActivity extends AppCompatActivity {
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         viewmodel = new ViewModelProvider(this).get(MainViewmodel.class);
-        BackgroundThread backgroundThread = new BackgroundThread();
-        backgroundThread.start();
+
+        timer();
+        timer2();
 
     }
 
-    public class BackgroundThread extends Thread {
-        @Override
-        public void run() {
+    private void timer2() {
+        Handler handler = new Handler();
+        handler.post(() -> {
+            viewmodel.getAllCases();
+            handler.postDelayed(this::timer, 1000);
+        });
+    }
+
+
+    private void timer() {
+        Handler handler = new Handler();
+        handler.post(() -> {
             viewmodel.fetchData();
-        }
+            handler.postDelayed(this::timer, 60000);
+        });
     }
+
 
 }
