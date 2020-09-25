@@ -39,7 +39,7 @@ This repository contains a detailed sample app that implements MVVM architecture
   <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/Screenshot_1601041421.png" width="250">
   <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/Screenshot_1601041427.png" width="250">
   <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/Screenshot_1601041431.png" width="250">
-  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/Screenshot_1601041436.png" width="250">
+  <img src="https://https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/Screenshot_1601044626.png" width="250">
 </p>
 <br>
 
