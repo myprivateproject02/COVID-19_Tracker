@@ -44,7 +44,7 @@ This repository contains a detailed sample app that implements MVVM architecture
 <!------------
 -->
 
-**Keep your code clean according to MVVM**
+ ** 👉 Keep your code clean according to MVVM**
 -----------------------------
  - Yes , liveData is easy , powerful , but you should know how to use.
  - For livedate which will emit data stream , it has to be in your
@@ -66,6 +66,8 @@ This repository contains a detailed sample app that implements MVVM architecture
   <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/rxJavaImg.png" width="250">
   </p>
 <br>
+
+##### If You Want To Dont't Load On Ui Thread Then You Should Use Background Thread. RxJava Doing Same For That Workd.
  
 
 
