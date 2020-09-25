@@ -1,5 +1,6 @@
 package com.example.covid_19tracker.ui.states;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -23,6 +24,7 @@ import com.example.covid_19tracker.databinding.FragmentStateBinding;
 import com.example.covid_19tracker.model.indianModel.IndinaModel;
 import com.example.covid_19tracker.model.indianModel.Statewise;
 import com.example.covid_19tracker.model.worldModel.Country;
+import com.example.covid_19tracker.ui.main.HomeActivity;
 
 
 public class StateFragment extends Fragment {
@@ -56,6 +58,12 @@ public class StateFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         viewmodel = new ViewModelProvider(getActivity()).get(StateViewmodel.class);
+
+
+        binding.backBtn.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getActivity() , HomeActivity.class);
+            startActivity(intent);
+        });
 
         initRecycler();
         setData();

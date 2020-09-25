@@ -46,7 +46,7 @@ public class MainViewmodel extends ViewModel {
         repository.getCountryData()
                 .subscribeOn(Schedulers.io())
                 .map(countrywiseModel -> {
-                    Log.e(TAG, "getCountryInfo: " + countrywiseModel.get(2).getCountryInfo().getFlag());
+                    Log.e(TAG, "getCountryInfoTotal: " + countrywiseModel.get(2).getCountryInfo().getFlag());
                     return countrywiseModel;
                 }).observeOn(AndroidSchedulers.mainThread())
                 .subscribe(countrywiseModel -> {

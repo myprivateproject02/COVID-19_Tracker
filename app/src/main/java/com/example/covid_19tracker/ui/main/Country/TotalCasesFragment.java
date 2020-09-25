@@ -73,6 +73,7 @@ public class TotalCasesFragment extends Fragment {
 
     private void setData() {
         viewmodel.getCountrys().observe(getViewLifecycleOwner(), myArrays -> {
+            Log.e(TAG, "setData: "+myArrays.size() );
             adapter.setItemsList(myArrays);
         });
     }

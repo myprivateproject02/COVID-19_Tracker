@@ -80,15 +80,18 @@ public class CountryFragment extends Fragment implements OnItemActionListener {
                     super.onPageSelected(position);
                     Log.e(TAG, "onPageSelected: " + position);
                     if (position == 0) {
+                        binding.viewpagerAdapter.setCurrentItem(0);
                         binding.total.setBackgroundColor(getResources().getColor(R.color.gray700));
                         binding.today.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                         binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                     } else if (position == 1) {
+                        binding.viewpagerAdapter.setCurrentItem(1);
                         binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                         binding.today.setBackgroundColor(getResources().getColor(R.color.gray700));
                         binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
 
                     } else {
+                        binding.viewpagerAdapter.setCurrentItem(2);
                         binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                         binding.today.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                         binding.yesterday.setBackgroundColor(getResources().getColor(R.color.gray700));
