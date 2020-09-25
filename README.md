@@ -64,7 +64,7 @@ This repository contains a detailed sample app that implements MVVM architecture
   in `SOLID (object-oriented design)` , so don't break this concept by
    mixing the responsibilities .
 
-  ![mvvm2](https://user-images.githubusercontent.com/1812129/68319008-e9d39d00-00bd-11ea-9245-ebedd2a2c067.png)
+  ![mvvm2](https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/img1.png)
 
 
 ### Why RxJava?
