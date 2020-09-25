@@ -18,6 +18,8 @@ import android.view.ViewGroup;
 import com.example.covid_19tracker.R;
 import com.example.covid_19tracker.Viewmodel.MainViewmodel;
 import com.example.covid_19tracker.databinding.FragmentHomeBinding;
+import com.example.covid_19tracker.model.Advice;
+import com.example.covid_19tracker.ui.health.HealthActivity;
 import com.example.covid_19tracker.ui.states.StatesActivity;
 
 import java.text.NumberFormat;
@@ -66,6 +68,11 @@ public class HomeFragment extends Fragment {
                 Intent stateActivity = new Intent(getActivity(), StatesActivity.class);
                 startActivity(stateActivity);
 
+            });
+
+            binding.health.setOnClickListener(view1 -> {
+                Intent intent = new Intent(getActivity(), HealthActivity.class);
+                startActivity(intent);
             });
 
             binding.country.setOnClickListener(view2 -> {

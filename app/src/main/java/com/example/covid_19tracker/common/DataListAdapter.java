@@ -20,7 +20,6 @@ public abstract class DataListAdapter<T, V extends ViewDataBinding, S extends On
 
     @NonNull
     private List<T> mItems;
-    private List<T> exampleListFull;
     protected final OnItemClickedListener<T> listener;
     protected final OnItemLongClickListener<T> longListener;
     protected final S actionListener;
@@ -72,39 +71,6 @@ public abstract class DataListAdapter<T, V extends ViewDataBinding, S extends On
             this.oldItems = oldItems;
             this.newItems = newItems;
         }
-
-//        public Filter getFilter() {
-//            return exampleFilter;
-//        }
-//
-//        public Filter exampleFilter = new Filter() {
-//            @Override
-//            protected FilterResults performFiltering(CharSequence charSequence) {
-//                List<T> filteredList = new ArrayList<>();
-//                if (charSequence == null || charSequence.length() == 0) {
-//                    filteredList.addAll(exampleListFull);
-//                } else {
-//                    String filterPattern = charSequence.toString().toLowerCase().trim();
-//                    for (T t : exampleListFull) {
-//                        if (t.equals(filterPattern)) {
-//                            filteredList.add(t);
-//                        }
-//                    }
-//
-//                }
-//                FilterResults results = new FilterResults();
-//                results.values = filteredList;
-//
-//                return results;
-//
-//            }
-//
-//            @Override
-//            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
-//                mItems.clear();
-//                mItems.addAll((List) filterResults.values);
-//            }
-//        };
 
 
         @Override

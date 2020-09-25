@@ -68,47 +68,31 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/corona"
-                app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/corona"
                 android:elevation="64dp"
-                app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                android:src="@drawable/corona"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
                 app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/constraintLayout"
-                app:layout_constraintVertical_bias="0.407" />
+                app:layout_constraintStart_toEndOf="@+id/constraintLayout" />
 
-
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:fontFamily="@font/roboto"
-                android:text="What Do You Need?"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="40dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4">
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView2">
 
 
                 <LinearLayout
@@ -209,10 +193,11 @@
                             android:elevation="16dp">
 
                             <ImageView
+                                android:id="@+id/health"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="16dp"
-                                android:src="@drawable/daily"
+                                android:src="@drawable/health"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.5"
@@ -226,7 +211,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/roboto"
-                            android:text="daily"
+                            android:text="Advice"
                             android:textSize="18dp" />
 
                     </LinearLayout>

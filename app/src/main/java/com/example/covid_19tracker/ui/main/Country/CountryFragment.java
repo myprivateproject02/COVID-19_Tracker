@@ -18,7 +18,6 @@ import android.view.ViewGroup;
 
 import com.example.covid_19tracker.R;
 import com.example.covid_19tracker.Viewmodel.MainViewmodel;
-import com.example.covid_19tracker.adapter.CountryTotalAdapter;
 import com.example.covid_19tracker.adapter.ViewpagerAdapter;
 import com.example.covid_19tracker.common.OnItemActionListener;
 import com.example.covid_19tracker.databinding.ActivityHomeBinding;
@@ -31,7 +30,6 @@ public class CountryFragment extends Fragment implements OnItemActionListener {
     FragmentCountryBinding binding;
     NavController navController;
     MainViewmodel viewmodel;
-    CountryTotalAdapter adapter;
     ActivityHomeBinding mainBinding;
     ViewpagerAdapter viewpagerAdapter;
 
@@ -68,11 +66,10 @@ public class CountryFragment extends Fragment implements OnItemActionListener {
                 navController.navigate(R.id.action_countryFragment_to_homeFragment);
             });
 
+
             viewpagerAdapter = new ViewpagerAdapter(getActivity());
             binding.viewpagerAdapter.setAdapter(viewpagerAdapter);
 
-
-//            int a = binding.viewpagerAdapter.getCurrentItem();
 
             binding.viewpagerAdapter.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
                 @Override
