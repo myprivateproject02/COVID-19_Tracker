@@ -14,7 +14,7 @@ import com.example.covid_19tracker.common.OnItemLongClickListener;
 import com.example.covid_19tracker.databinding.SingleStateLayoutBinding;
 import com.example.covid_19tracker.model.indianModel.Statewise;
 
-public class StateAdapter extends DataListAdapter<Statewise, SingleStateLayoutBinding, OnItemActionListener> {
+public class StateAdapter extends DataListAdapter<Statewise, SingleStateLayoutBinding, OnItemActionListener>  {
 
     SingleStateLayoutBinding binding;
     private static final String TAG = "StateAdapter";

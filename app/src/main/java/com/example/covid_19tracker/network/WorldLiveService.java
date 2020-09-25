@@ -15,7 +15,7 @@ public interface WorldLiveService {
     @GET("v2/all")
     Observable<AllCases> getAllCases();
 
-    @GET("v3/covid-19/countries")
+    @GET("v3/covid-19/countries/null")
     Observable<List<Country>> getCountryData(
             @Query("sort") String cases
     );

@@ -19,9 +19,9 @@
             name="state"
             type="com.example.covid_19tracker.model.indianModel.Statewise" />
 
-        <variable
-            name="indina"
-            type="com.example.covid_19tracker.model.indianModel.IndinaModel" />
+<!--        <variable-->
+<!--            name="indina"-->
+<!--            type="com.example.covid_19tracker.model.indianModel.IndinaModel" />-->
     </data>
 
 
