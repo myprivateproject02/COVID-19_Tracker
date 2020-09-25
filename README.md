@@ -35,18 +35,10 @@ This repository contains a detailed sample app that implements MVVM architecture
 ## Some ScreenShorts
 
 <p align="center">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-login.png" width="250">
-  <img src="https://janishar.github.io/images/mvp-app-pics/main-view.png" width="250">
-  <img src="https://janishar.github.io/gifs/mvp-app.gif" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss01.png" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss2.png" width="250">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/ss1.png" width="250">
 </p>
-<br>
-<p align="center">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-drawer.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-rating.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-feed.png" width="200">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-empty-state.png" width="200">
-</p>
-<br>
 <br>
 
 <!------------
@@ -65,9 +57,18 @@ This repository contains a detailed sample app that implements MVVM architecture
    mixing the responsibilities .
 
   ![mvvm2](https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/img1.png)
+  
+<!------------
+-->
+  
+  ### Why RxJava?
+  <p align="center">
+  <img src="https://github.com/myprivateproject02/COVID-19_Tracker/blob/master/sample_img/rxJavaImg.png" width="250">
+  </p>
+<br>
+ 
 
 
-### Why RxJava?
 Reactive extensions in Java allow you to manipulate multiple actions that occur due to certain system events simultaneously. Rx gives you a possibility to use functional transformations over streams of events and it doesn't require using nasty things like callbacks and global state management.
 
 
