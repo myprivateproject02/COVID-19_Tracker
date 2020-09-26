@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
     tools:context=".ui.main.HomeFragment">
 
     <!--    android:background="@drawable/rectangle"-->
@@ -28,7 +27,7 @@
                 style="@style/CustomCardViewStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTint="@color/purpely"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +46,7 @@
                         android:layout_marginBottom="16dp"
                         android:fontFamily="@font/roboto"
                         android:text="Covid-19 Live Tracker"
-                        android:textColor="@color/background"
+                        android:textColor="@color/white"
                         android:textSize="32dp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -114,7 +113,7 @@
                             android:layout_height="80dp"
                             android:layout_margin="16dp"
                             android:background="@drawable/circular_shape"
-                            android:backgroundTint="@color/colorPrimary"
+                            android:backgroundTint="@color/purpely"
                             android:elevation="16dp">
 
                             <ImageView
@@ -135,6 +134,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/roboto"
+                            android:textColor="@color/darck"
                             android:text="country"
                             android:textSize="18dp" />
 
@@ -151,7 +151,7 @@
                             android:layout_height="80dp"
                             android:layout_margin="16dp"
                             android:background="@drawable/circular_shape"
-                            android:backgroundTint="@color/colorPrimary"
+                            android:backgroundTint="@color/purpely"
                             android:elevation="16dp">
 
                             <ImageView
@@ -172,6 +172,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/roboto"
+                            android:textColor="@color/darck"
                             android:text="states"
                             android:textSize="18dp" />
 
@@ -189,7 +190,7 @@
                             android:layout_height="80dp"
                             android:layout_margin="16dp"
                             android:background="@drawable/circular_shape"
-                            android:backgroundTint="@color/colorPrimary"
+                            android:backgroundTint="@color/purpely"
                             android:elevation="16dp">
 
                             <ImageView
@@ -211,6 +212,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/roboto"
+                            android:textColor="@color/darck"
                             android:text="Advice"
                             android:textSize="18dp" />
 
@@ -247,6 +249,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:text="Overall Details"
+                    android:textColor="@color/darck"
                     android:textSize="32dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -259,7 +262,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="Coronavirus Cases:"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/darckGrayBlue"
                     android:textSize="18dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -272,7 +275,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="4dp"
                     android:text="0"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/darckGrayBlue"
                     android:textSize="24dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -311,7 +314,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="Recovered:"
-                    android:textColor="@color/themeGreen"
+                    android:textColor="@color/darckGreen"
                     android:textSize="18dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/total_death" />
@@ -323,7 +326,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="4dp"
                     android:text="0"
-                    android:textColor="@color/themeGreen"
+                    android:textColor="@color/darckGreen"
                     android:textSize="24dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"

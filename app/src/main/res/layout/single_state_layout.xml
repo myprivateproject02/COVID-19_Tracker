@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:layout_margin="8dp"
         android:padding="8dp"
-        app:cardBackgroundColor="#A9222831"
+        app:cardBackgroundColor="@color/darck"
         app:cardCornerRadius="8dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,7 +40,8 @@
             android:layout_height="wrap_content">
 
 
-            android:text="@{indina.statewise.get(position).state}"
+<!--            android:text="@{indina.statewise.get(position).state}"-->
+
 
             <TextView
                 android:id="@+id/stateName"
@@ -48,7 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="@{state.state}"
-                android:textColor="@color/background"
+                android:textSize="22dp"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="@+id/linearLayout3"

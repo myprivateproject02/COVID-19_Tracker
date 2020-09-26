@@ -27,10 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:padding="8dp"
-        app:cardBackgroundColor="#A9222831"
-        app:cardCornerRadius="8dp">
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/darck"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     android:fontFamily="@font/roboto"
                     android:gravity="center"
                     android:text="@{country.country}"
-                    android:textColor="@color/background"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -80,8 +80,8 @@
                 android:id="@+id/linearLayout3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".5"
                 android:layout_marginTop="8dp"
+                android:layout_weight=".5"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
@@ -222,9 +222,12 @@
                         android:text="@{NumberFormat.getNumberInstance(Locale.US).format(country.recovered)}"
                         android:textColor="@color/themeGreen"
                         android:textSize="14dp"
+
+
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/recovered" />
+
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -246,7 +249,7 @@
         <!--            android:layout_gravity="center"-->
         <!--            android:fontFamily="sans-serif-light"-->
         <!--            android:gravity="center"-->
-        <!--            android:text="&#45;&#45;&#45;&#45;"-->
+        <!--            android:text="kjzbskj"-->
         <!--            android:textAllCaps="true"-->
         <!--            android:textSize="16sp"-->
         <!--            android:textStyle="normal"-->

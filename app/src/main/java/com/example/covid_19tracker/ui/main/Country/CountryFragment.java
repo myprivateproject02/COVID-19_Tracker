@@ -78,20 +78,20 @@ public class CountryFragment extends Fragment implements OnItemActionListener {
                     Log.e(TAG, "onPageSelected: " + position);
                     if (position == 0) {
                         binding.viewpagerAdapter.setCurrentItem(0);
-                        binding.total.setBackgroundColor(getResources().getColor(R.color.gray700));
-                        binding.today.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                        binding.total.setBackgroundColor(getResources().getColor(R.color.darck));
+                        binding.today.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darckGreen));
                     } else if (position == 1) {
                         binding.viewpagerAdapter.setCurrentItem(1);
-                        binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                        binding.today.setBackgroundColor(getResources().getColor(R.color.gray700));
-                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                        binding.total.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+                        binding.today.setBackgroundColor(getResources().getColor(R.color.darck));
+                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darckGreen));
 
                     } else {
                         binding.viewpagerAdapter.setCurrentItem(2);
-                        binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                        binding.today.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.gray700));
+                        binding.total.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+                        binding.today.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+                        binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darck));
                     }
 
 
@@ -101,24 +101,24 @@ public class CountryFragment extends Fragment implements OnItemActionListener {
 
             binding.total.setOnClickListener(view1 -> {
                 binding.viewpagerAdapter.setCurrentItem(0);
-                binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                binding.today.setBackgroundColor(getResources().getColor(R.color.gray700));
-                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+//                binding.total.setBackgroundColor(getResources().getColor(R.color.darck));
+//                binding.today.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+//                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darckGreen));
             });
 
 
             binding.today.setOnClickListener(view1 -> {
                 binding.viewpagerAdapter.setCurrentItem(1);
-                binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                binding.today.setBackgroundColor(getResources().getColor(R.color.gray700));
-                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+//                binding.total.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+//                binding.today.setBackgroundColor(getResources().getColor(R.color.darck));
+//                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darckGreen));
             });
 
             binding.yesterday.setOnClickListener(view1 -> {
                 binding.viewpagerAdapter.setCurrentItem(2);
-                binding.total.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                binding.today.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.gray700));
+//                binding.total.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+//                binding.today.setBackgroundColor(getResources().getColor(R.color.darckGreen));
+//                binding.yesterday.setBackgroundColor(getResources().getColor(R.color.darck));
             });
 
         }

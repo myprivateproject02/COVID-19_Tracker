@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#393e46</color>
-    <color name="colorPrimaryDark">#222831</color>
-    <color name="colorAccent">#32e0c4</color>
-    <color name="background">#eeeeee</color>
+<!--    <color name="colorPrimary">#393e46</color>-->
+<!--    <color name="colorPrimaryDark">#222831</color>-->
+<!--    <color name="colorAccent">#32e0c4</color>-->
+<!--    <color name="background">#eeeeee</color>-->
+
+
+
+
+
+<!--    Color Palate-->
+    <color name="purpely">#212b38</color>
+    <color name="lightGreen">#5affe7</color>
+    <color name="darckGreen">#08c6ab</color>
+    <color name="darckGrayBlue">#35455D</color>
+    <color name="darck">#202A3A</color>
+    <color name="transperent">#00FFFFFF</color>
+
+
+
 
 
 <!--    Extra Color-->
@@ -16,6 +31,11 @@
     <color name="themePurple">#7971ea</color>
     <color name="gray">#dddddd</color>
     <color name="gray700">#999999</color>
+
+
+    <color name="topCardView">#272343</color>
+
+
 
 
 

@@ -40,7 +40,7 @@ public class HomeActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.post(() -> {
             viewmodel.getAllCases();
-            handler.postDelayed(this::timer, 1000);
+            handler.postDelayed(this::timer, 60000);
         });
     }
 
@@ -49,7 +49,7 @@ public class HomeActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.post(() -> {
             viewmodel.fetchData();
-            handler.postDelayed(this::timer, 60000);
+            handler.postDelayed(this::timer, 180000);
         });
     }
 
