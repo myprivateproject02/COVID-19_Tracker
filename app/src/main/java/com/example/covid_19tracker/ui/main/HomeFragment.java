@@ -19,6 +19,7 @@ import com.example.covid_19tracker.R;
 import com.example.covid_19tracker.Viewmodel.MainViewmodel;
 import com.example.covid_19tracker.databinding.FragmentHomeBinding;
 import com.example.covid_19tracker.model.Advice;
+import com.example.covid_19tracker.ui.about.AboutActivity;
 import com.example.covid_19tracker.ui.health.HealthActivity;
 import com.example.covid_19tracker.ui.states.StatesActivity;
 
@@ -81,6 +82,11 @@ public class HomeFragment extends Fragment {
 
             binding.daily.setOnClickListener(view2 -> {
                 Log.e(TAG, "onCreate: daily clicked...");
+            });
+
+            binding.about.setOnClickListener(view1 -> {
+                Intent intent = new Intent(getActivity(), AboutActivity.class);
+                startActivity(intent);
             });
 
 

@@ -7,7 +7,7 @@
     <string name="label">hello</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="owner_text">Made with ❤ in India\n\nBy Jadhav Rupesh</string>
 
     <string name="advice_1">Avoid touching your eyes, nose, and mouth with unwashed hands.</string>
     <string name="advice_2">Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.</string>
