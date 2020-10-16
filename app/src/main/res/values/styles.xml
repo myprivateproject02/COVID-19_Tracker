@@ -3,7 +3,7 @@
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/darck</item>
-        <item name="colorPrimaryDark">@color/purpely</item>
+        <item name="colorPrimaryDark">@color/darck</item>
         <item name="colorAccent">@color/lightGreen</item>
         <!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
         <!--        <item name="android:statusBarColor">@color/colorPrimaryDark</item>-->
