@@ -28,7 +28,6 @@
                 android:layout_marginHorizontal="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:fontFamily="@font/roboto"
                 android:text="Covid-19 Live Tracker"
                 android:textColor="@color/white"
                 android:textSize="32dp"
@@ -102,7 +101,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="@font/roboto"
                         android:text="country"
                         android:textSize="18dp" />
 
@@ -139,7 +137,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="@font/roboto"
                         android:text="states"
                         android:textSize="18dp" />
 
@@ -178,7 +175,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="@font/roboto"
                         android:text="Advice"
                         android:textSize="18dp" />
 
@@ -301,7 +297,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:fontFamily="@font/roboto"
         android:text="About This Application"
         android:textColor="@color/darck"
         android:textStyle="bold"

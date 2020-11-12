@@ -12,6 +12,7 @@
         <!--        <item name="windowActionBar">false</item>-->
         <!--        <item name="windowNoTitle">true</item>-->
 
+        <item name="android:fontFamily">@font/muli</item>
 
         <item name="shapeAppearanceSmallComponent">@style/AppShapeRoundedApprence.smallComponent
         </item>
