@@ -1,4 +1,6 @@
-# COVID-19_Tracker
+<img src="sample_img/mask.svg" width="100" >
+# COVID-19_Tracker 
+
 
 <!-- Blockquote -->
 <!-- Strong -->
