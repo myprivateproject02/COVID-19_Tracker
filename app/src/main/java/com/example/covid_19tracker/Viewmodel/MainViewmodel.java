@@ -96,7 +96,6 @@ public class MainViewmodel extends ViewModel {
         return allCases;
     }
 
-
     @BindingAdapter({"app:imageUrl"})
     public static void loadImage(CircleImageView view, String url) {
         Log.e(TAG, "loadImage: " + url);
